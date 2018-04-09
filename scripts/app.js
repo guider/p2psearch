@@ -28,7 +28,6 @@ function sayHello() {
 
 function doRequest(text) {
 
-
     $http.request({
         method: "POST",
         url: "http://api.prguanjia.com/table/searchListApi",
@@ -124,10 +123,7 @@ function renderUi(data) {
         }]
     })
 
-
 }
-
-
 
 function formatData(data) {
     let resultArr = [];
